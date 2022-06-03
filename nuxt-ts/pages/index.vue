@@ -1,11 +1,16 @@
 <template>
-  <Tutorial />
+  <div class="teste">
+    <ul>
+      <NuxtLink to="/">Home</NuxtLink>
+      <NuxtLink to="/sobre">Sobre</NuxtLink>
+    </ul>
+  </div>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
+<style scoped>
 
-export default Vue.extend({
-  name: 'IndexPage',
-})
-</script>
+a.nuxt-link-exact-active{
+  font-weight: bold;
+}
+
+</style>
