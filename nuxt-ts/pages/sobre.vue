@@ -1,15 +1,22 @@
 <template>
-  <ul>
-    <NuxtLink to="/">Home</NuxtLink>
-    <NuxtLink to="/sobre">Sobre</NuxtLink>
-  </ul>
+  <div class="sobre">
+    <h1>Sobre</h1>
+
+    <Nuxt />
+  </div>
 </template>
 
+<!-- <script lang="ts">
+import Vue from 'vue'
 
-<style scoped>
+export default Vue.extend({
+  layout: 'teste',
+})
+</script> -->
 
-a.nuxt-link-exact-active{
-  font-weight: bold;
+
+<script>
+export default {
+  layout: 'teste',
 }
-
-</style>
+</script>
